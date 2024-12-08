@@ -1,0 +1,161 @@
+/* COMMON */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Inter", system-ui;
+	overflow-x: hidden;
+	max-width: 100%;
+}
+
+/* HEADER */
+
+.header {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.header .navigation li {
+	display: inline-block;
+	padding: 20px 40px;
+}
+
+.header .navigation li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* CONTENT */
+
+/* banner */
+.banner {
+	width: 100%;
+	border-top: 2px solid #B6B4B7;
+	background-color: #FFEBEC;
+	padding: 20px;
+}
+
+.banner .banner-text {
+	margin: 0px 0px 30px 100px;
+	display: inline-block;
+}
+
+.banner .banner-text .banner-title {
+	margin-top: 30px;
+	color: #CD7557;
+	font-size: 40px;
+}
+
+.banner .banner-text .banner-description {
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.banner .banner-text .banner-button {
+	width: 200px;
+	height: 50px;
+	border: 1px solid #CD7557;
+	border-radius: 10px;
+	background-color: #fff;
+	font-size: 14px;
+	color: #CD7557;
+	margin-top: 40px;
+}
+
+.banner .banner-image {
+	width: 300px;
+	display: inline-block;
+	float: right;
+	margin: 20px 200px 0px 0px;
+}
+
+/* paragraphs */
+
+.paragraphs {
+	margin: 50px 0px 50px 0px;
+}
+
+.paragraphs h1 {
+	text-align: center;
+	font-size: 40px;
+	color: #CD7557;
+}
+
+.paragraph {
+	background-color: #FFEBEC;
+	margin: 50px 180px 0px 180px;
+	height: 230px;
+	border-radius: 20px;
+}
+
+.paragraph img {
+	float: left;
+	padding: 20px;
+}
+
+.paragraph .paragraph-text {
+	float: left;
+	margin: 50px 0px 0px 0px;
+	padding: 10px;
+	color: #4F4544;
+}
+
+.paragraph .paragraph-text h3 {
+	font-size: 24px;
+}
+
+.paragraph .paragraph-text p {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.paragraphs .additional-text p {
+	color: #4F4544;
+	font-weight: 600;
+	font-size: 22px;
+	margin: 50px 0px 0px 180px;
+}
+
+.paragraphs .additional-text h1 {
+	text-align: left;
+	margin: 20px 0px 0px 180px;
+}
+
+.paragraphs .paragraph-6 .paragraph-text {
+	margin-left: 100px;
+}
+
+/* FOOTER */
+
+.footer {
+   	width: 100%;
+   	margin: 100px 0px 0px 0px;
+  	background-color: #FFEBEC;
+  	padding: 40px 30px;
+}
+
+.footer p {
+	margin-left: 60px;
+}
+
+.footer p span {
+	font-size: 16px;
+	color: #CD7557;
+	font-weight: bold;
+}
+
+.footer ul {
+	margin: 20px 0px 0px 40px;
+}
+
+.footer ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.footer ul li a {
+	color: #000000;
+}
