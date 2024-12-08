@@ -1,0 +1,154 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+body {
+	font-family: Poppins, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.header .container {
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar ul li {
+	display: inline;
+	margin-left: 60px;
+}
+
+.navbar ul li a {
+	font-size: 18px;
+	color: #000;
+}
+
+.navbar ul li a span {
+	color: #8D58A9;
+	font-weight: bold;
+}
+
+.header .container button {
+	padding: 12px 50px;
+	background-color: #8D58A9;
+	border: none;
+	border-radius: 8px;
+}
+
+.header .container button a {
+	font-size: 16px;
+	color: #fff;
+}
+
+.content {
+	margin-bottom: 50px;
+	min-height: 100vh;
+}
+
+.banner {
+	background-color: #D2C9EC;
+	padding: 50px;
+}
+
+.banner .container {
+	position: relative;
+}
+
+.banner .banner-text h1 {
+	font-size: 38px;
+}
+
+.banner .banner-text p {
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.banner .banner-text button {
+	padding: 12px 50px;
+	background-color: #8D58A9;
+	border: none;
+	border-radius: 8px;
+	margin-top: 30px;
+}
+
+.banner .banner-text button a {
+	color: #fff;
+	font-size: 16px;
+}
+
+.banner .container .logo {
+	width: 450px;
+	position: absolute;
+	top: -20px;
+	right: 0px;
+}
+
+.info {
+	margin-top: 50px;
+}
+
+.info .info-header {
+	text-align: center;
+}
+
+.info .info-header h1 {
+	font-size: 36px;
+}
+
+.info .info-header p {
+	font-size: 18px;
+	color: #393B3B;
+}
+
+.info .info-content {
+	margin-top: 50px;
+	position: relative;
+}
+
+.info .info-content img {
+	width: 500px;
+	height: 450px;
+	object-fit: cover;
+}
+
+.info-content .info-content-text {
+	float: right;
+}
+
+.info-content .info-content-text h2 {
+	font-size: 30px;
+}
+
+.info-content .info-content-text p {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.footer {
+	background-color: #D5CCF0;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.footer p {
+	font-size: 14px;
+	color: #624869;
+}
