@@ -1,0 +1,106 @@
+body {
+	font-family: "Montserrat", serif;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.paragraphs {
+	flex: 1;
+	min-height: 100vh;
+	margin: 0px 210px 0px 210px;
+}
+
+.paragraphs h2 {
+	color: #8079A5;
+	text-align: center;
+	font-size: 32px;
+}
+
+.paragraph {
+	height: 150px;
+	background-color: #EBF5FD;
+	border-radius: 20px;	
+}
+
+.paragraph img {
+	width: 150px;
+	float: left;
+}
+
+.paragraph-1 {
+	padding: 15px;
+}
+
+.paragraph-1 .text, .paragraph-2 .text, .paragraph-3 .text, .paragraph-5 .text, .paragraph-6 .text {
+	display: block;
+	margin-left: 200px;
+}
+
+.paragraph .text h3 {
+	font-size: 18px;
+}
+
+.paragraph .text p {
+	font-size: 16px;
+}
+
+.paragraph-2, .paragraph-3, .paragraph-6, .paragraph-7 {
+	padding: 15px;
+	margin-top: 40px;
+}
+
+.paragraph-4 {
+	background-color: #ffffff;
+	margin-top: 50px;
+}
+
+.paragraph-4 p {
+	font-size: 18px;
+}
+
+.paragraph-4 h3 {
+	color: #8079A5;
+	font-size: 28px;
+}
+
+.paragraph-5 {
+	padding: 15px;
+	margin-top: 20px;
+}
+
+.paragraph-7 .text {
+	display: block;
+	margin-left: 100px;
+}
+
+.footer {
+   	width: 100%;
+   	margin: 100px 0px 0px 0px;
+  	background-color: #EBF5FD;
+  	padding: 15px 0px 15px 0px;
+}
+
+.footer p {
+	margin-left: 60px;
+}
+
+.footer p span {
+	font-size: 16px;
+	color: #8079A5;
+	font-weight: bold;
+}
+
+.footer ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.footer ul li a {
+	color: #000000;
+}
